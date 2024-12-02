@@ -27,7 +27,7 @@ Component Bit_Comprator Is
 END COmponent;
 For ALL   : Bit_Comprator Use Entity Work.Bit_Comprator (Bit_Comprator_GATE_LEVEL);
 Constant m : Integer :=4 ;
-SIGNAL Im : STD_LOGIC_VECTOR((m-1)*3-1 Downto 0):= (others => '0');
+SIGNAL Im : STD_LOGIC_VECTOR(0 to (m-1)*3-1):= (others => '0');
 Begin
 C :  For I in 0 to m-1 Generate 
 L:      IF I=0 Generate 
