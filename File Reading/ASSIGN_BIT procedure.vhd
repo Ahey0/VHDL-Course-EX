@@ -1,6 +1,6 @@
 Library IEEE;
 USE IEEE.STD_LOGIC_1164.All;
-USE work.baseic_utilities.All;
+USE work.basic_utilities.All;
 Entity test_of_file_reading is
 end entity;
 Architecture test_of_file_reading_behave of test_of_file_reading is
