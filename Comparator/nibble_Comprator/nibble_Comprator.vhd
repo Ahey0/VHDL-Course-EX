@@ -74,7 +74,7 @@ Signal AEQB1 :    STD_LOGIC                       ;
 Signal ALTB1 :    STD_LOGIC                       ;
 Begin 
 UU1 : nibble_Comprator  Port Map (A1,B1,GT1,EQ1,LT1,AGTB1,AEQB1,ALTB1);
-A1<="1010","0100" After 20 ns,"0000" After 40 ns;
-B1<="0100","1000" After 30 ns,"1110" After 50 ns;
+A1<="1010","0100" After 30 ns,"0000" After 60 ns;
+B1<="0100","1000" After 20 ns,"1110" After 50 ns;
 END TB_nibble_Comprator_Behave;
 

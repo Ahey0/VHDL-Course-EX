@@ -74,6 +74,6 @@ Signal AEQB1 :    STD_LOGIC                       ;
 Signal ALTB1 :    STD_LOGIC                       ;
 Begin 
 UU1 : Byte_Comprator_Flexable  Port Map (A1,B1,GT1,EQ1,LT1,AGTB1,AEQB1,ALTB1);
-A1<="10100000","01000000" After 20 ns,"00000000" After 40 ns;
-B1<="01000000","10000000" After 30 ns,"11100000" After 50 ns;
+A1<="10100000","01000000" After 30 ns,"00000000" After 60 ns;
+B1<="01000000","10000000" After 20 ns,"11100000" After 50 ns;
 END TB_Byte_Comprator_Flexable_Behave;
