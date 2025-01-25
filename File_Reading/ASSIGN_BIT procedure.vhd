@@ -11,7 +11,7 @@ procedure assign_bits (
                       ) IS
     Variable char    : Character    ;         
     Variable current : Time := 0 ns ;
-    file input_value_file : logic_data is "C:\Modeltech_5.5e\examples\work\test_of_file_reading/DATA.txt";
+    file input_value_file : logic_data is "C:\Modeltech_5.5e\examples\work\test_of_file_reading\DATA.txt";
 Begin
      File_Open(input_value_file,file_name,READ_MODE);
        While Not ENDFILE (input_value_file) Loop
@@ -27,7 +27,7 @@ Begin
         end loop;
 End assign_bits;
 File input_value_file :logic_data is "DATA.txt";
-Signal a , b , c : bit ;
+Signal a : bit ;
 begin
 Assign_bits(a , "DATA.txt" , 50 ns );
 End;
